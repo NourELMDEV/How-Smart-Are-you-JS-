@@ -6,7 +6,7 @@ function findout(){
         document.getElementById('answer').innerHTML = "You are " + random + " % Smart, nice";
         (document.getElementById('bt').style.visibility='hidden')
     } else {
-        document.getElementById('answer').innerHTML = "You are " + random + " % Dumb, smh";
+        document.getElementById('answer').innerHTML = "You are " + random + " % Not quite smart. (just a joke!)";
         (document.getElementById('bt').style.visibility='hidden')
     } 
 }
